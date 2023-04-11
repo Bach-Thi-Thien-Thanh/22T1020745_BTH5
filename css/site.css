@@ -1,0 +1,142 @@
+.TQ{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3rem;
+    height: 1712px;
+}
+.TQ1{
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container div img:hover{
+    transform: scale(1.03,1.03);
+}
+div a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container .hashtag{
+    padding-left: 10px;
+}
+.hashtag  ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-left: 380px;
+}
+.hashtag  ul li{
+    border-radius: 20px;
+    border: solid 1px rgb(192, 190, 190);
+    font-size: 0.8rem;
+    margin-top: 5px;
+    height: 25px;
+    margin-right: 15px;
+    padding:6px 10px 0px 10px;
+}
+.hashtag  ul li span{
+    color: orange;
+}
+.container-full {
+    background-image: linear-gradient(180deg,rgb(110, 109, 109),orange);
+}
+.container-full div ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.container-full div ul li{
+    padding-left: 40px;
+    padding-right: 50px;
+}
+.container-full div ul li:hover{
+    font-weight: bold;
+}
+.container-full div ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+.content-left{
+    padding-top: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+}
+
+.column-1{
+    font-size: 14px;
+}
+.row{
+    padding-left: 200px;
+}
+.row .column1 img{
+    padding-top: 20px;
+}
+.row .column2 {
+    font-size: 0.9rem;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.gachchan1{
+    border-bottom:solid 2px rgb(226, 224, 224) ;
+    padding-top: 15px;
+    margin-left: 200px;
+}
+.content-right{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.content-right .section-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+.row1 .text{
+    padding-left: 10px;
+    font-size: 0.8rem;
+}
+.gach{
+    background-color: #fda13e;
+    width: 3px;
+    margin-right:10px;
+    margin-left: 10px;
+    height: 20px;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+.gachchan{
+    background-color: #fda13e;
+    width: 100%;
+    height: 3px;
+}
+.container-ful{
+    background-color: rgb(17, 16, 16) ;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.end{
+    font-size: 0.9rem;
+    padding-right: 50px;
+}
+.end1{
+    padding-top: 20px;
+}
